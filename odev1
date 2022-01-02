@@ -1,0 +1,5 @@
+const p = process.argv.slice(2);
+const param1 = p[0];
+const pi = 3.14;
+let alan = pi*param1*param1;
+console.log('Yarıçapı '+param1+' olan dairenin alanı : '+alan);
